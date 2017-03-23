@@ -1,5 +1,5 @@
 {
-  "name": "test-circular-dependencies-1",
+  "name": "node-test-circular-dependencies-1",
   "version": "0.0.0",
   "description": "Testing circular dependencies in Node",
   "main": "index.js",
@@ -8,12 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rsp/node-test-circular-dependencies-2.git"
+    "url": "git+https://github.com/rsp/node-test-circular-dependencies-1.git"
   },
   "author": "Rafał Pocztarski <r.pocztarski@gmail.com> (https://pocztarski.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rsp/node-test-circular-dependencies-2/issues"
+    "url": "https://github.com/rsp/node-test-circular-dependencies-1/issues"
   },
-  "homepage": "https://github.com/rsp/node-test-circular-dependencies-2#readme"
+  "homepage": "https://github.com/rsp/node-test-circular-dependencies-1#readme",
+  "dependencies": {
+    "node-test-circular-dependencies-2": "github:rsp/node-test-circular-dependencies-2"
+  }
 }
